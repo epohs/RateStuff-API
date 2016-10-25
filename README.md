@@ -10,4 +10,24 @@ API serving the [RateStuff](https://github.com/epohs/RateStuff) package
 
 ## Installation
 
-##Usage
+## Usage
+
+### API Endpoints
+
+#### PUT
+
+  - **/items**
+
+#### POST
+
+  - **/token/get**
+
+
+  - **/items/search**
+
+
+#### GET
+
+  - **/item/{id}**
+
+#### DELETE
