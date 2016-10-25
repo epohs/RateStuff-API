@@ -2,4 +2,4 @@
 *.log
 error_log
 config.php
-.htaccess
+##.htaccess

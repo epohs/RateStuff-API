@@ -1,0 +1,9 @@
+Header set Access-Control-Allow-Origin "*"
+Header set Access-Control-Allow-Methods "GET, POST, PUT, DELETE"
+Header set Access-Control-Allow-Headers "RATE_STUFF_TOKEN, Content-Type"
+Header set Access-Control-Expose-Headers "RATE_STUFF_TOKEN"
+
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ /index.php?path=$1 [NC,L,QSA]
